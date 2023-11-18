@@ -62,6 +62,8 @@ button_remove_cat.addEventListener('click', ()=> {
 
 const cat_phrase3 = document.querySelector('cat_phrase3') as HTMLDivElement
 
+
+//! Вызывание 'духа'
 button_phantom.addEventListener ('click', ()=> {
   setTimeout(() => {
     cat_phantom.style.display = 'block'
@@ -79,13 +81,56 @@ button_phantom.addEventListener ('click', ()=> {
     cat_phantom.style.animation = 2+ 's'
   }, 6000);
   setTimeout(() => {
-    cat_phantom.style.opacity = 0
+    cat_phantom.style.opacity = '0'
     cat_phantom.style.animation = 2 + 's'
   }, 8000);
 
-  // setTimeout(() => {
-  //   cat_phrase3.style.display = 'block'
-  // }, 7000);
+  setTimeout(() => {
+    button_phantom.style.opacity = '0'
+    button_phantom.style.animation = 1 + 's'
+  }, 9000);
+
+  setTimeout(() => {
+    button_cat_digger.style.opacity = '0'
+    button_cat_digger.style.animation = 1 + 's'
+  }, 10000);
+
+  setTimeout(() => {
+    button_remove.style.opacity = '0'
+    button_remove.style.animation = 1 + 's'
+  }, 11000);
+
+  setTimeout(() => {
+    button_cat_leg.style.opacity = '0'
+    button_cat_leg.style.animation = 1 + 's'
+  }, 12000);
+  setTimeout(() => {
+    button_eye.style.opacity = '0'
+    button_eye.style.animation = 1 + 's'
+  }, 13000);
+
+
+  setTimeout(() => {
+    tomb_cat.style.opacity = '0'
+    tomb_cat.style.animation = 1 + 's'
+  }, 14000);
+
+  setTimeout(() => {
+    tomb_cat2.style.opacity = '0'
+    tomb_cat2.style.animation = 1 + 's'
+  }, 15000);
+
+  setTimeout(() => {
+    cat_phantom.style.opacity = '1'
+    cat_phantom.style.animation = 3 + 's'
+  }, 16000);
+
+  
+  
+ 
+
+
+
 
 })
 
@@ -134,8 +179,8 @@ cat_option1.addEventListener ('click', ()=> {
     eye.style.marginTop = -550 +'px'
     eye.style.transition = 0.5 + 's'
     
-    cat_ghost_to_tomb.style.opacity = 1
-    cat.style.opacity = 0
+    cat_ghost_to_tomb.style.opacity = '1'
+    cat.style.opacity = '0'
   }, 7000);
   
   setTimeout(() => {
