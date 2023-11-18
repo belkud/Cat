@@ -68,7 +68,7 @@ button_phantom.addEventListener ('click', ()=> {
   }, 500);
   
   setTimeout(() => {
-    cat_phantom.style.marginLeft = 300 +'px'
+    cat_phantom.style.marginLeft = 200 +'px'
     cat_phantom.style.marginTop = 300 +'px'
     cat_phantom.style.transition = 5 +'s'
     
