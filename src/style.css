@@ -1,0 +1,295 @@
+body {
+    /* background-color: rgb(233, 231, 231) ; */
+    background: black;
+    padding: 0px;
+    margin:  0 auto;
+    overflow-x:hidden;
+  }
+  
+   
+  
+   
+  
+  #cat_container {
+  margin:  0 auto;
+  }
+  
+  
+  
+  
+  .content {
+    /* margin-left: 10px; */
+    background:linear-gradient(145deg, rgb(233, 231, 231),white, rgb(175, 172, 172));
+    background: black;
+    /* height: 100vh; */
+    /* background-color: white; */
+  }
+  
+  .btn_task {
+    background:linear-gradient(145deg, red , blue );
+    width: 100px;
+    color: white;
+    border: 1px solid black;
+    transition: .5s;
+  }
+  
+  .btn_task:hover {
+    box-shadow: -2px -2px 5px rgb(245, 97, 97) ,
+    2px 2px 5px rgb(71, 71, 240); 
+    border: 1px solid white;
+    transition: .5s;
+  }
+  
+  .btn_answer {
+    color: white;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: .5s;
+  }
+  
+  .btn_answer:hover {
+    background-color: rgb(4, 74, 74);
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px rgb(9, 127, 127);
+    transition: .5s;
+  }
+  
+   
+  
+  #eye {
+    animation: anim3 2s ease-in-out infinite;
+   
+  }
+  
+  @keyframes anim3 {
+    0% {
+      margin-top: 0px;
+      opacity: 0;
+    }
+    50% {
+      margin-top: 10px;
+      opacity: 1;
+    }
+    100% {
+      margin-top: 60px;
+      opacity: 0;
+    }
+  }
+  
+  #cat_leg {
+    /* top: 50%;
+    left: 50%; */
+    animation: anim4 0.84s linear calc(3);
+    /* animation-iteration-count: calc(3); */
+  }
+  
+  
+  @keyframes anim4 {
+    0% {
+      rotate: 0deg;
+    }
+    50% {
+      rotate: 40deg;
+    }
+    100% {
+      rotate: 0deg;
+    }
+  }
+   
+  
+  #button_eye, #button_cat_leg{
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background:linear-gradient(145deg, aqua, gray);
+    transition: .5s;
+  }
+  
+  #button_eye:hover, #button_cat_leg:hover{
+    box-shadow: -2px -2px 10px aqua ,
+    2px 2px 10px lightgray; 
+    border: 2px solid white;
+      background:linear-gradient(145deg, gray, aqua);
+    transition: .5s;
+  }
+  
+  
+  
+  #button_remove{
+    background: linear-gradient(145deg, red, gray);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    transition: .5s;
+  }
+  
+  #button_remove:hover{
+    box-shadow: -2px -2px 10px red ,
+    2px 2px 10px aliceblue; 
+    border: 2px solid white;
+    transition: .5s;
+  }
+  #button_phantom, #button_cat_digger{
+    background: linear-gradient(145deg, gray, black);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    transition: .5s;
+  }
+  
+  #button_phantom:hover, #button_cat_digger:hover {
+    box-shadow: -2px -2px 10px gray ,
+    2px 2px 10px aliceblue; 
+    border: 2px solid white;
+    transition: .5s;
+  }
+  
+  #cat_dialog>div {
+    
+    /* border: 1px solid #000; */
+  }
+  
+  #cat_phrase{
+  
+    border: 3px solid grey !important;
+    border-radius: 20px 20px 20px 0px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
+  
+  #cat_phrase2, #cat_phrase3, #cat_phrase4{
+    border: 3px solid grey !important;
+    border-radius: 20px 20px 20px 0px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    width: 100px;
+    padding: 10px;
+  }
+  
+  .cat_opt {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 25px;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  
+  #cat_option1 {
+    background: linear-gradient(180deg, red,#f08395, red);
+    /* background-color: red; */
+    transition: .5s;
+  }
+  
+  #cat_option1:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px red;
+    transition: 0.5s  !important;
+  }
+  
+  #cat_option2 {
+    background-color: blue;
+    background: linear-gradient(180deg, blue,  rgb(149, 149, 238), blue);
+    transition: .5s;
+  }
+  
+  #cat_option2:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px blue;
+    transition: 0.5s  !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .time {
+    background-color:red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+  }
+  div{
+    padding:  20px;
+  }
+  
+  
+  
+  
+    
+    @media screen and (max-width: 1200px) {
+      #width_of_display {
+        background: blue !important;
+        color: white;
+      }
+    
+  
+  @media screen and (max-width: 1000px) {
+    .text {
+      font-size: 85px;
+    }
+    #showText  {
+    font-size: 0.9em;
+    }
+  
+    #container_animation {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      /* border: 3px solid red; */
+      height: 100%;
+    }
+    #cat_container{
+      margin-left: 0px;
+    }
+    #cat_animation>div{
+      margin-left: 0px;
+    }
+    }
+    .container_forest {
+     
+      min-width: 100%;
+      padding-right: 0px;
+      margin: 0%;
+      }
+    
+      }
+  
+  
+  
+    @media screen and (max-width: 768px) {
+  
+      #showText{
+        font-size: 0.7em;
+          }
+      }
+  
+    @media screen and (max-width: 460px) {
+      #showText {
+      font-size: 0.6em;
+      }
+  
+      #game_football {
+        margin-left: 150px;
+      }
+      
+      #titles {
+        margin-left: 65px;
+        align-content: flex-end;
+      }
+      .container_forest {
+        padding-right: 450px;
+        margin: 0%;
+        }
+      }
