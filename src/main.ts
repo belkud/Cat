@@ -17,11 +17,11 @@ button_cat_leg?.addEventListener('click', ()=>{
  if (cat_leg.style.display=='none'){
     cat_leg.style.display='block'
     cat_leg2.style.display='none'
-    button_cat_leg.innerHTML= 'Дякую, кіт '
+    button_cat_leg.innerHTML= 'Спасибо, кот '
 } else {
     cat_leg.style.display='none'
     cat_leg2.style.display='block'
-    button_cat_leg.innerHTML= 'Кіт, помахай лапкою '
+    button_cat_leg.innerHTML= 'Кот, помаши лапкой '
  }
  // cat_leg.classList.add('anim')
 })
