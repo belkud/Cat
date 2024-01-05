@@ -1,7 +1,10 @@
 import './style.css'
  
 
-
+const launch = document.querySelector('#launch') as HTMLButtonElement
+launch.addEventListener('click', ()=> {
+  location.reload()
+})
 
 const eye = document.querySelector('#eye') as HTMLPictureElement
 const button_eye = document.querySelector('#button_eye') as HTMLButtonElement
@@ -124,6 +127,10 @@ button_phantom.addEventListener ('click', ()=> {
     cat_phantom.style.opacity = '1'
     cat_phantom.style.animation = 3 + 's'
   }, 16000);
+  setTimeout(() => {
+    // cat_phantom.style.opacity = '1'
+    launch.style.display = 'block'
+  }, 19000);
 
   
   

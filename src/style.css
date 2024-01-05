@@ -9,7 +9,19 @@ body {
    
 
 
-  
+  #launch {
+    background-color: red;
+    padding: 5px;
+    color: aliceblue;
+    width: 150px;
+    position: absolute;
+    z-index: 100;
+    top: 48%;
+    left: 15%;
+    border-radius: 5px;
+    font-weight: 900;
+    display: none;
+  }
    
   
   #cat_container {
